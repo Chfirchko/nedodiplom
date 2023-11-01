@@ -10,6 +10,7 @@ sc = pygame.display.set_mode(RES)
 clock = pygame.time.Clock()
 
 
+
 class Cell:
     def __init__(self, x, y):
         self.x, self.y = x, y
